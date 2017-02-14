@@ -1,0 +1,15 @@
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+  list-style: none;
+}
+.inline {
+  display: block;
+  border: 1px solid #333;
+  margin: 25px;
+}
+.n-type section:nth-child(2n) {
+  border: 1px solid #333;
+}
